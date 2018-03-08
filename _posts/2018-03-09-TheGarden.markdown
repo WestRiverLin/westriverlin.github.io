@@ -10,6 +10,5 @@ tags: [解谜, 像素]
 ## 项目分工：
 单人开发。
 ## 游戏简介：
-UCLA游戏设计课程作业，基于P5.JS框架开发的游戏，并自己画了像素风格的素材进行制作，注意到了游戏中剧情、提示、彩蛋的重要性。<br/>
-作品与代码见：
-http://alpha.editor.p5js.org/WestRiverLin/sketches/S1WUdkgwZ
+UCLA游戏设计课程作业，基于P5.JS框架开发的游戏，并自己画了像素风格的素材进行制作，注意到了游戏中剧情、提示、彩蛋的重要性。
+作品与代码见：http://alpha.editor.p5js.org/WestRiverLin/sketches/S1WUdkgwZ
