@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 音乐跑酷游戏Bitriot
-date: 2017-09-12 13:32:20 +0300
+date: 2018-03-09 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: worksImages/MusicRunningGame.png # Add image post (optional)
+img: worksImages/Bitriot.png # Add image post (optional)
 tags: [音乐, 跑酷]
 ---
 ## 项目分工
