@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: worksImages/Bitriot.png # Add image post (optional)
 tags: [音乐, 跑酷]
 ---
-这是一个音乐跑酷游戏............................................................................................
+Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth.
 ## 项目分工
 三人开发，我担任程序、部分涉及Shader的特效制作。
 ## 游戏简介

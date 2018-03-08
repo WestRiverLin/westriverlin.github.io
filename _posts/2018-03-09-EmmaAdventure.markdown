@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: worksImages/EmmaAdventure.png # Add image post (optional)
 tags: [动作, 探索]
 ---
-这是一个3D地牢探索游戏，并带有爽快的战斗.............................................................................
+Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth.
 ## 项目分工：
 两人开发，我担任策划、程序、部分涉及Shader的特效制作。
 ## 游戏简介：
