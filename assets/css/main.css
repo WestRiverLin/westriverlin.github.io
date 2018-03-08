@@ -986,9 +986,9 @@ table tfoot td {
 
 .content-box {
 
-  padding: 20px;
+ /* padding: 20px;*/
   padding-left: 260px;
-  
+  /*
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1005,7 +1005,7 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-
+*/
 	width：300px;/*可自定义，也可不设*/
     overflow:hidden;/*超出隐藏*/
     text-overflow:ellipsis;/*文本溢出时显示省略标记*/
