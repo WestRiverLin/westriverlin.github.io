@@ -990,8 +990,8 @@ table tfoot td {
   padding-left: 260px;
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
-  /*display: flex;*/
+  /*display: -ms-flexbox;
+  display: flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
