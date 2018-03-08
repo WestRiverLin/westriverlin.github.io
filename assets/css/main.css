@@ -985,6 +985,10 @@ table tfoot td {
 }
 
 .content-box {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  
   padding: 20px;
   padding-left: 260px;
   display: -webkit-box;
