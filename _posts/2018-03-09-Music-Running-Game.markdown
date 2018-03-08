@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How I Rest From Work
+title: 音乐跑酷游戏Bitriot
 date: 2017-09-12 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: worksImages/MusicRunningGame.png # Add image post (optional)
 tags: [音乐, 跑酷]
 ---
-##项目分工
+## 项目分工
 三人开发，我担任程序、部分涉及Shader的特效制作。
-##游戏简介
+## 游戏简介
 第一次制作音乐类游戏，对像素风格产生了兴趣并进行了一定的学习。
 自己编写了小插件给美术的同学使用，能从外部读取音乐节奏文件并自动在地图上生成障碍物，并可拖拽生成跑酷路线。
 
