@@ -1005,9 +1005,12 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;*/
-white-space:nowrap; 
-text-overflow:ellipsis; 
-overflow: hidden; 
+ display: -webkit-box !important;  
+                overflow: hidden;  
+                text-overflow: ellipsis;  
+                word-break: break-all;  
+                -webkit-box-orient: vertical;  
+                -webkit-line-clamp: 3;  
 
 }
 
