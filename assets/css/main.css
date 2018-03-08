@@ -1006,20 +1006,6 @@ table tfoot td {
 
 
 }
-/*让此div下所有的p文字有溢出省略功能*/
-.content-box p{
-width：300px;/*可自定义，也可不设*/
-    overflow:hidden;/*超出隐藏*/
-    text-overflow:ellipsis;/*文本溢出时显示省略标记*/
-    display:-webkit-box;/*设置弹性盒模型*/
-    -webkit-line-clamp:3;/*文本占的行数,如果要设置2行加...则设置为2*/
-    -webkit-box-orient:vertical;/*子代元素垂直显示*/
-
-}
-
-
-
-
 
 .contact .contact-title {
   position: relative;
@@ -1171,6 +1157,14 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
+  /*让此div下所有的p文字有溢出省略功能*/
+  width：300px;/*可自定义，也可不设*/
+    overflow:hidden;/*超出隐藏*/
+    text-overflow:ellipsis;/*文本溢出时显示省略标记*/
+    display:-webkit-box;/*设置弹性盒模型*/
+    -webkit-line-clamp:3;/*文本占的行数,如果要设置2行加...则设置为2*/
+    -webkit-box-orient:vertical;/*子代元素垂直显示*/
+  
 }
 
 a.older-posts, a.newer-posts {
@@ -1200,18 +1194,7 @@ a.newer-posts:hover {
 .wrap-content {
   padding: 20px;
 }
-.wrap-content p{
-  /*恢复正常的p*/
-  
-  width：300px;/*可自定义，也可不设*/
-    overflow:visible;/*超出不隐藏*/
-    text-overflow:ellipsis;/*文本溢出时显示省略标记*/
-    display:-webkit-box;/*设置弹性盒模型*/
-    -webkit-line-clamp:5;/*文本占的行数,如果要设置2行加...则设置为2*/
-    -webkit-box-orient:vertical;/*子代元素垂直显示*/
-  
-  
-}
+
 .header-page {
   text-align: center;
   margin: 10px 0;
