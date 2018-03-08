@@ -6,7 +6,7 @@ description: 这是一个Web像素风格解谜游戏。 # Add post description (
 img: worksImages/TheGarden.png # Add image post (optional)
 tags: [解谜, 像素]
 ---
-这是一个Web像素风格解谜游戏。
+这是一个Web像素风格解谜游戏，基于P5.JS框架开发。
 ## 项目分工：
 单人开发。
 ## 游戏简介：

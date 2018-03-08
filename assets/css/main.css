@@ -875,6 +875,9 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
 }
+.article-page p{
+  /*普通段落*/
+}
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
@@ -1015,6 +1018,10 @@ width：300px;/*可自定义，也可不设*/
     -webkit-box-orient:vertical;/*子代元素垂直显示*/
 
 }
+
+
+
+
 
 .contact .contact-title {
   position: relative;
