@@ -6,11 +6,12 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: worksImages/Bitriot.png # Add image post (optional)
 tags: [音乐, 跑酷]
 ---
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth.
+第一次制作音乐类游戏，对像素风格产生了兴趣并进行了一定的学习。
+自己编写了小插件给美术的同学使用，能从外部读取音乐节奏文件并自动在地图上生成障碍物，并可拖拽生成跑酷路线。
 ## 项目分工
 三人开发，我担任程序、部分涉及Shader的特效制作。
 ## 游戏简介
-第一次制作音乐类游戏，对像素风格产生了兴趣并进行了一定的学习。
-自己编写了小插件给美术的同学使用，能从外部读取音乐节奏文件并自动在地图上生成障碍物，并可拖拽生成跑酷路线。
+玩家操纵主角在道路上奔跑，中途根据音乐节奏有不同的障碍物阻挡玩家前进，玩家需要根据画面提示，按下相应的按键躲避障碍物。根据按键的准确程度，将给予不同的分数，一首曲子结束后，系统会根据相应的得分给出评价，若得分足够高，则计入排行榜。
+
 
 
