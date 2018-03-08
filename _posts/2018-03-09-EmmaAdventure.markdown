@@ -6,7 +6,7 @@ description: 这是一个3D地牢探索游戏，并带有爽快的战斗。 # Ad
 img: worksImages/EmmaAdventure.png # Add image post (optional)
 tags: [动作, 探索]
 ---
-这是一个3D地牢探索游戏，并带有爽快的战斗。<br/>
+这是一个3D地牢探索游戏，并带有爽快的战斗。
 在开发过程中，自己写了一套随机房间生成算法，进一步熟悉了3D动作游戏的开发。进一步学习了Shader并能够自己写一些Shader实现想要的特效。研究学习了扭曲、溶解、镜面、人物发光Shader特效并成功实现。
 ## 项目分工：
 两人开发，我担任策划、程序、部分涉及Shader的特效制作。
