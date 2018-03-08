@@ -985,11 +985,14 @@ table tfoot td {
 }
 
 .content-box {
-display: -webkit-box;
-/*-webkit-box-orient: vertical;*/
--webkit-line-clamp: 2;  //这里是在第二行有省略号
-overflow: hidden;
 
+display: -webkit-box !important;  
+                overflow: hidden;  
+                text-overflow: ellipsis;  
+                word-break: break-all;  
+                -webkit-box-orient: vertical;  
+                -webkit-line-clamp: 3;  
+/*
   padding: 20px;
   padding-left: 260px;
   display: -webkit-box;
@@ -1009,7 +1012,7 @@ overflow: hidden;
       -ms-flex-align: stretch;
           align-items: stretch;
 
-
+*/
 }
 
 .contact .contact-title {
