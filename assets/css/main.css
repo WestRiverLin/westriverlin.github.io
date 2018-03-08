@@ -985,13 +985,18 @@ table tfoot td {
 }
 
 .content-box {
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;  //这里是在第二行有省略号
+overflow: hidden;
+
   padding: 20px;
   padding-left: 260px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+ /* -webkit-box-orient: horizontal;*/
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
@@ -1004,10 +1009,7 @@ table tfoot td {
       -ms-flex-align: stretch;
           align-items: stretch;
 
-display: -webkit-box;
- -webkit-box-orient: vertical;
- -webkit-line-clamp: 3;
- overflow: hidden;
+
 }
 
 .contact .contact-title {
