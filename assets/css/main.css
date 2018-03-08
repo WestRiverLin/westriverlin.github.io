@@ -876,7 +876,7 @@ table tfoot td {
   background-color: #fff;
 }
 .article-page p{
-  
+ /*恢复正常的p*/
 }
 
 ::-moz-selection {
@@ -1150,6 +1150,10 @@ footer .copyright {
 .post .post-content {
   padding: 1rem;
   width: 70%;
+}
+
+.post .post-content p{
+/*恢复正常的p*/
 }
 
 .post .post-content .post-date,
