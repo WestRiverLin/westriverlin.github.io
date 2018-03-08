@@ -986,15 +986,12 @@ table tfoot td {
 
 .content-box {
 
-display: -webkit-box !important;  
-text-overflow:ellipsis;
-
   padding: 20px;
   padding-left: 260px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  /*display: flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
