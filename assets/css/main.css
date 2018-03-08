@@ -985,10 +985,6 @@ table tfoot td {
 }
 
 .content-box {
-  overflow: hidden;
-  text-overflow:ellipsis;
-  white-space: nowrap;
-  
   padding: 20px;
   padding-left: 260px;
   display: -webkit-box;
@@ -1007,6 +1003,11 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+
+display: -webkit-box;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp: 3;
+ overflow: hidden;
 }
 
 .contact .contact-title {
