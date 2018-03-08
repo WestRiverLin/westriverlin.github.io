@@ -6,6 +6,7 @@ description: 这是一个3D地牢探索游戏，并带有爽快的战斗。 # Ad
 img: worksImages/EmmaAdventure.png # Add image post (optional)
 tags: [动作, 探索]
 ---
+Jean shorts organic cornhole, gochujang post-ironic chicharrones authentic flexitarian viral PBR&B forage wolf. Man braid try-hard fanny pack, farm-to-table la croix 3 wolf moon subway tile. Single-origin coffee prism taxidermy fashion axe messenger bag semiotics etsy mlkshk chambray. Marfa lumbersexual meditation celiac. Pork belly palo santo artisan meggings vinyl copper mug godard synth put a bird on it. Cloud bread pop-up quinoa, raw denim meditation 8-bit slow-carb. Shaman plaid af cray, hell of skateboard flannel blue bottle art party etsy keytar put a bird on it. Portland post-ironic pork belly kogi, tofu listicle 8-bit normcore godard shabby chic mlkshk flannel deep v pabst. Pork belly kinfolk fingerstache lo-fi raclette. Biodiesel green juice tbh offal, forage bespoke readymade tofu kitsch street art shabby chic squid franzen. Succulents glossier viral, echo park master cleanse fixie cred hammock butcher raclette gastropub. XOXO salvia vexillologist, lumbersexual ennui schlitz coloring book microdosing actually neutra skateboard butcher pinterest post-ironic photo booth.
 这是一个3D地牢探索游戏，并带有爽快的战斗。
 在开发过程中，自己写了一套随机房间生成算法，进一步熟悉了3D动作游戏的开发。进一步学习了Shader并能够自己写一些Shader实现想要的特效。研究学习了扭曲、溶解、镜面、人物发光Shader特效并成功实现。
 ## 项目分工：
