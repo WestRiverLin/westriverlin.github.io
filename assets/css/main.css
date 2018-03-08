@@ -1005,7 +1005,7 @@ table tfoot td {
 
 
 }
-
+/*让此div下所有的p文字有溢出省略功能*/
 .content-box p{
 width：300px;/*可自定义，也可不设*/
     overflow:hidden;/*超出隐藏*/
