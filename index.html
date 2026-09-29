@@ -355,6 +355,16 @@
       border-top: 1px solid var(--line);
     }
 
+    .project-cover {
+      width: 100%;
+      aspect-ratio: 2847 / 1473;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--blue-050);
+      margin-bottom: 20px;
+    }
+
     .project {
       padding: 30px 0 31px;
       border-bottom: 1px solid var(--line);
@@ -433,11 +443,21 @@
     }
 
     .work-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
       overflow: hidden;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--white);
       box-shadow: var(--shadow);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+
+    .work-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--blue-2);
+      box-shadow: 0 20px 50px rgba(21, 54, 85, 0.12);
     }
 
     .work-card img {
@@ -637,7 +657,6 @@
         <p class="role">技术美术 / Technical Artist<br>渲染 · 工具 · 移动端性能优化</p>
         <p class="career-status">网易游戏 · 天下事业部</p>
         <ul class="contact-list">
-          <li><span>电话</span><a href="tel:+8613695088409">+86 136 9508 8409</a></li>
           <li><span>邮箱</span><a href="mailto:westriverlin@qq.com">westriverlin@qq.com</a></li>
           <li><span>博客</span><a href="https://blog.csdn.net/qq_27534999">blog.csdn.net/qq_27534999</a></li>
         </ul>
@@ -746,36 +765,43 @@
         <h2 class="section-heading">代表项目</h2>
         <div class="project-list">
           <article class="project">
+            <img class="project-cover" src="assets/img/projectImages/天下3.jpg" alt="天下3 系列">
             <span class="project-label">BigWorld / Messiah</span>
             <header class="project-header">
               <h3>《天下3》《天下移动版》《天下贰》《天下：万象》</h3>
               <span class="period">2020.9 – 2026.9</span>
             </header>
             <ul class="bullets">
-              <li>负责材质效果开发与引擎 / 美术工具建设，覆盖场景氛围、时装、坐骑、后处理、天气与地形方案。</li>
-              <li>参与「开天计划」跨引擎移植，自研 BigWorld To Messiah 粒子特效转换工具与场景资源转移方案。</li>
+              <li>使用网易自研 <strong>BigWorld、Messiah</strong> 引擎，负责开发材质效果，包括场景氛围、时装、坐骑、后处理、天气与地形方案等。</li>
+              <li>开发引擎工具与美术工具，包括 AI 自动化贴图重绘工具、Shader 分析管理工具、资源转换工具等。</li>
+              <li>参与跨引擎移植「开天计划」，将游戏从 BigWorld 引擎移植到 Messiah 引擎；自研两套美术资源跨引擎移植方案并申请获得专利：<strong>BigWorld To Messiah 粒子特效转换工具</strong>、<strong>BigWorld To Messiah 场景资源转移方案</strong>。</li>
             </ul>
           </article>
 
           <article class="project">
+            <img class="project-cover" src="assets/img/projectImages/龙击社.png" alt="代号：龙击社">
             <span class="project-label">Unity URP / PBR</span>
             <header class="project-header">
               <h3>《代号：龙击社》</h3>
               <span class="period">2020.1 – 2020.8</span>
             </header>
             <ul class="bullets">
-              <li>未公开的研发中 PBR 项目，使用 Unity URP 管线，完成 DEMO 阶段的技术美术工作。</li>
+              <li>使用 Unity 引擎的未公开研发中 PBR 项目，当时处于 DEMO 阶段，后因公司业务调整，项目组解散。</li>
+              <li>相当于《不休的乌拉拉》的升级版，采用 PBR 流程、URP 管线。</li>
             </ul>
           </article>
 
           <article class="project">
+            <img class="project-cover" src="assets/img/projectImages/不休的乌拉拉.jpeg" alt="不休的乌拉拉">
             <span class="project-label">Unity</span>
             <header class="project-header">
               <h3>《不休的乌拉拉》</h3>
               <span class="period">2018.6 – 2020.6</span>
             </header>
             <ul class="bullets">
-              <li>项目组唯一技术美术，从零负责全部技术美术工作，最终做到项目上线运营并持续维护。</li>
+              <li>使用 Unity 引擎，在项目初期即加入，完整地经历了从 DEMO 到内测直至海内外上线的全过程。</li>
+              <li>当时是项目组唯一技术美术，从零负责所有技术美术工作，包括 Shader 编写（卡通渲染为主）、美术规范制定、美术工具开发、性能优化等，独立处理整个团队的事务。</li>
+              <li>最终做到项目上线运营，并持续维护半年。</li>
             </ul>
           </article>
         </div>
@@ -803,51 +829,51 @@
         </div>
       </section>
 
-      <section class="section">
+      <section id="works" class="section">
         <h2 class="section-heading">个人作品</h2>
         <div class="works-grid">
-          <article class="work-card">
+          <a class="work-card" href="works/Xanadu.html">
             <img src="assets/img/worksImages/Xanadu.png" alt="幻境 Xanadu" loading="lazy">
             <div class="work-card-body">
               <h3>《幻境 Xanadu》 · 双人横版闯关</h3>
               <p>支持手柄的双人合作闯关，获中国大学生计算机设计大赛国赛一等奖。</p>
             </div>
-          </article>
-          <article class="work-card">
+          </a>
+          <a class="work-card" href="works/EmmaAdventure.html">
             <img src="assets/img/worksImages/EmmaAdventure.png" alt="Emma Adventure" loading="lazy">
             <div class="work-card-body">
               <h3>《Emma Adventure》 · 动作冒险</h3>
               <p>3D 地牢探索，随机房间生成，Shader 特效与角色战斗表现。</p>
             </div>
-          </article>
-          <article class="work-card">
+          </a>
+          <a class="work-card" href="works/Bitriot.html">
             <img src="assets/img/worksImages/Bitriot.png" alt="Bit Riot" loading="lazy">
             <div class="work-card-body">
               <h3>《Bit Riot》 · 音乐跑酷</h3>
               <p>像素风格，读取音乐节奏文件自动生成障碍与跑酷路线。</p>
             </div>
-          </article>
-          <article class="work-card">
+          </a>
+          <a class="work-card" href="works/OneWay.html">
             <img src="assets/img/worksImages/OneWay.png" alt="One Way" loading="lazy">
             <div class="work-card-body">
               <h3>《One Way》 · 移动端解谜</h3>
               <p>3D LowPoly 风格，点击与松开控制角色移动，共 6 个关卡。</p>
             </div>
-          </article>
-          <article class="work-card">
+          </a>
+          <a class="work-card" href="works/PathFinding.html">
             <img src="assets/img/worksImages/PathFinding.png" alt="寻路 PathFinding" loading="lazy">
             <div class="work-card-body">
               <h3>《寻路 PathFinding》 · 益智解谜</h3>
               <p>关卡地图随机生成，方块旋转与镜头控制，寻找通关路径。</p>
             </div>
-          </article>
-          <article class="work-card">
+          </a>
+          <a class="work-card" href="works/TheGarden.html">
             <img src="assets/img/worksImages/TheGarden.png" alt="The Garden" loading="lazy">
             <div class="work-card-body">
               <h3>《The Garden》 · 网页像素解谜</h3>
               <p>基于 P5.js 的像素风解谜，关注剧情、提示与彩蛋设计。</p>
             </div>
-          </article>
+          </a>
         </div>
       </section>
 
