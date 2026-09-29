@@ -352,7 +352,7 @@
     }
 
     .project-list {
-      border-top: 1px solid var(--line);
+      border-top: none;
     }
 
     .project-cover {
@@ -366,8 +366,31 @@
     }
 
     .project {
-      padding: 30px 0 31px;
-      border-bottom: 1px solid var(--line);
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 24px 28px 28px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--white);
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+
+    .project:last-child {
+      margin-bottom: 0;
+    }
+
+    .project:hover {
+      transform: translateY(-3px);
+      border-color: var(--blue-2);
+      box-shadow: 0 20px 50px rgba(21, 54, 85, 0.12);
+    }
+
+    .project:hover h3 {
+      color: var(--blue);
     }
 
     .project-label {
@@ -721,7 +744,7 @@
       <section class="section">
         <h2 class="section-heading">关于我</h2>
         <p class="summary">
-          热爱游戏行业，拥有 <strong>6 年以上技术美术经验</strong>，先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目。擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>，也热衷于开发美术工具、制定美术规范，帮助美术同学提升效率。资深主机与掌机玩家（3DS、Switch、PS5），长期阅读并翻译英文技术文章，喜欢学习与分享知识。
+          热爱游戏行业，拥有 <strong>8 年以上技术美术经验</strong>，先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目。擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>，也热衷于开发美术工具、制定美术规范，帮助美术同学提升效率。资深主机与掌机玩家（3DS、Switch、PS5），长期阅读并翻译英文技术文章，喜欢学习与分享知识。
         </p>
       </section>
 
@@ -761,10 +784,10 @@
         </article>
       </section>
 
-      <section class="section">
-        <h2 class="section-heading">代表项目</h2>
+      <section id="projects" class="section">
+        <h2 class="section-heading">项目经历</h2>
         <div class="project-list">
-          <article class="project">
+          <a class="project" href="projects/tianxia3.html">
             <img class="project-cover" src="assets/img/projectImages/天下3.jpg" alt="天下3 系列">
             <span class="project-label">BigWorld / Messiah</span>
             <header class="project-header">
@@ -776,9 +799,9 @@
               <li>开发引擎工具与美术工具，包括 AI 自动化贴图重绘工具、Shader 分析管理工具、资源转换工具等。</li>
               <li>参与跨引擎移植「开天计划」，将游戏从 BigWorld 引擎移植到 Messiah 引擎；自研两套美术资源跨引擎移植方案并申请获得专利：<strong>BigWorld To Messiah 粒子特效转换工具</strong>、<strong>BigWorld To Messiah 场景资源转移方案</strong>。</li>
             </ul>
-          </article>
+          </a>
 
-          <article class="project">
+          <a class="project" href="projects/longjishe.html">
             <img class="project-cover" src="assets/img/projectImages/龙击社.png" alt="代号：龙击社">
             <span class="project-label">Unity URP / PBR</span>
             <header class="project-header">
@@ -789,9 +812,9 @@
               <li>使用 Unity 引擎的未公开研发中 PBR 项目，当时处于 DEMO 阶段，后因公司业务调整，项目组解散。</li>
               <li>相当于《不休的乌拉拉》的升级版，采用 PBR 流程、URP 管线。</li>
             </ul>
-          </article>
+          </a>
 
-          <article class="project">
+          <a class="project" href="projects/wulala.html">
             <img class="project-cover" src="assets/img/projectImages/不休的乌拉拉.jpeg" alt="不休的乌拉拉">
             <span class="project-label">Unity</span>
             <header class="project-header">
@@ -803,7 +826,7 @@
               <li>当时是项目组唯一技术美术，从零负责所有技术美术工作，包括 Shader 编写（卡通渲染为主）、美术规范制定、美术工具开发、性能优化等，独立处理整个团队的事务。</li>
               <li>最终做到项目上线运营，并持续维护半年。</li>
             </ul>
-          </article>
+          </a>
         </div>
       </section>
 
