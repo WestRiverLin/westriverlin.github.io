@@ -1,19 +1,212 @@
----
-layout: main
----
-{% for post in paginator.posts %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>西河某人的游戏屋</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="西河某人的游戏屋" property="og:site_name">
+  
+    <meta content="西河某人的游戏屋" property="og:title">
+  
+  
+    <meta content="website" property="og:type">
+  
+  
+    <meta content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+" property="og:description">
+  
+  
+    <meta content="http://www.westriverlin.fun/" property="og:url">
+  
+  
+  
+    <meta content="http://www.westriverlin.fun/assets/img/myImages/Me.jpg" property="og:image">
+  
+  
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="西河某人的游戏屋">
+  
+  
+    <meta name="twitter:url" content="http://www.westriverlin.fun/">
+  
+  
+    <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+  
+  
+    <meta name="twitter:image:src" content="http://www.westriverlin.fun/assets/img/myImages/Me.jpg">
+  
+
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    
+<aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="index.html"><img src="assets/img/myImages/Me.jpg" alt="西河某人"></a>
+      </div>
+      <div class="author-name">西河某人</div>
+      <p>我是一名游戏开发者，希望能做出更有趣、更迷人的作品！</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="github"><a href="http://github.com/WestRiverLin" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:WestRiverLin@QQ.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2026 &copy; 西河某人</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  
 <article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
-  {% endif %}
+  
+    <a class="post-thumbnail" style="background-image: url(assets/img/worksImages/PathFinding.png)" href="PathFinding/index.html"></a>
+  
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+    <h2 class="post-title"><a href="PathFinding/index.html">益智解谜游戏 《寻路 PathFinding》</a></h2>
+    <p>益智解谜类小游戏，关卡地图随机生成。画面风格略微模仿了纪念碑谷，为极简风。 项目分工： 二人开发，我担任程序、部分涉及 Shader 的美术。 游戏简介： 游戏关卡由算法随机生成，从容易逐步变得困难。 玩家操纵小球在方块间来回穿行，仅允许直线穿行，鼠标可控制镜头观察场景，键盘WSAD控制方块旋转，找到通向终点的路即可通关，在规定时间内通关最多且步数最少者可以得到更高的分数。（拥有排行榜功能）</p>
+    <span class="post-date">2018, May 20&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
   </div>
 </article>
-{% endfor %}
 
-{% include pagination.html %}
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(assets/img/worksImages/Bitriot.png)" href="Bitriot/index.html"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="Bitriot/index.html">音乐跑酷游戏 《Bit Riot》</a></h2>
+    <p>第一次制作音乐类游戏，对像素风格产生了兴趣并进行了一定的学习。 自己编写了小插件给美术的同学使用，能从外部读取音乐节奏文件并自动在地图上生成障碍物，并可拖拽生成跑酷路线。 项目分工： 三人开发，我担任程序、部分涉及 Shader 的特效制作。 游戏简介： 玩家操纵主角在道路上奔跑，中途根据音乐节奏有不同的障碍物阻挡玩家前进，玩家需要根据画面提示，按下相应的按键躲避障碍物。根据按键的准确程度，将给予不同的分数，一首曲子结束后，系统会根据相应的得分给出评价，若得分足够高，则计入排行榜。</p>
+    <span class="post-date">2018, Mar 09&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
+  </div>
+</article>
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(assets/img/worksImages/EmmaAdventure.png)" href="EmmaAdventure/index.html"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="EmmaAdventure/index.html">动作冒险游戏 《Emma Adventure》</a></h2>
+    <p>这是一个3D地牢探索游戏，并带有爽快的战斗。 在开发过程中，自己写了一套随机房间生成算法，进一步熟悉了3D动作游戏的开发。进一步学习了Shader并能够自己写一些Shader实现想要的特效。研究学习了扭曲、溶解、镜面、人物发光 Shader 特效并成功实现。 项目分工： 两人开发，我担任策划、程序、部分涉及 Shader 的特效制作。 游戏简介： 玩家操纵主角 Emma 探索地牢，玩家需要探索不同的房间，找出最终BOSS并击败，从而获得胜利。 地图房间顺序是随机生成的，宝箱和怪物也是随机摆放的，每一次进入游戏都会稍有不同，在地牢探索中可能会遇到一些需要解谜的房间和恢复生命的房间，最终走到 BOSS 房，打败了BOSS后即可获得胜利。...</p>
+    <span class="post-date">2018, Mar 09&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
+  </div>
+</article>
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(assets/img/worksImages/TheGarden.png)" href="TheGarden/index.html"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="TheGarden/index.html">Web像素解谜游戏 《The Garden》</a></h2>
+    <p>这是一个网页像素风格解谜游戏，基于 P5.JS 框架开发。 项目分工： 单人开发。 游戏简介： 在 UCLA 的游戏设计课程作业，基于 P5.JS 框架开发，自己画了像素风格的素材进行制作，注意到了游戏中剧情、提示、彩蛋的重要性。 游玩地址：https://editor.p5js.org/WestRiverLin/full/S1WUdkgwZ</p>
+    <span class="post-date">2018, Mar 09&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
+  </div>
+</article>
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(assets/img/worksImages/OneWay.png)" href="OneWay/index.html"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="OneWay/index.html">移动端解谜游戏 《One Way》</a></h2>
+    <p>这是一个移动端的 3D LowPoly 风格解谜游戏。 项目分工： 两人开发，我担任程序。 游戏简介： 游戏方法很简单，点击屏幕时，小人会停下，松开屏幕时，小人会继续走。 利用这个简单的机制做了6个关卡，并熟悉了 Unity 移动端游戏的开发。</p>
+    <span class="post-date">2018, Mar 09&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
+  </div>
+</article>
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(assets/img/worksImages/Xanadu.png)" href="Xanadu/index.html"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="Xanadu/index.html">双人横版闯关游戏 《幻境 Xanadu》</a></h2>
+    <p>这是一个双人横版闯关游戏（支持手柄），获得中国大学生计算机设计大赛国赛一等奖。 项目分工： 三人开发，我担任程序，参与策划及特效制作。 游戏简介： 两个玩家能操纵自身的角色合作闯关，游戏中致敬了马里奥的方块，玩家能通过顶方块来获得不同的道具。 进一步熟悉了横版平台跳跃游戏的开发，第一次开发手柄游玩的双人游戏，进一步熟悉了 Unity 的 Animator 等系统，开始关注优秀横版游戏镜头的拉伸与跟踪的细节并着手实现。</p>
+    <span class="post-date">2018, Mar 09&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
+  </div>
+</article>
+
+
+<div class="container">
+  <nav class="pagination" role="pagination">
+    <ul>
+      
+
+      <p><span class="page-number">Page 1 of 1</span></p>
+
+      
+    </ul>
+  </nav>
+</div>
+
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
