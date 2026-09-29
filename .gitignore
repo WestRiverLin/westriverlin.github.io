@@ -4,6 +4,10 @@ _site
 yarn.lock
 node_modules/
 
+# Personal source files kept out of the public site
+*.doc
+*.docx
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
