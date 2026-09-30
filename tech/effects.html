@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>材质效果开发 — 林尚靖</title>
+  <link rel="stylesheet" href="../works/work.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html">林尚靖</a>
+      <a class="back-link" href="../index.html#tech">← 返回技术工作精选</a>
+    </div>
+  </header>
+  <main class="page">
+    <h1 class="title">材质效果开发</h1>
+    <p class="meta">Materials · Shaders · BigWorld / Messiah / Unity · 2018 – 2026</p>
+    <p class="intro">涵盖场景、角色、特效、后处理等多个方向的材质与 Shader 开发，共 20 余项效果。</p>
+
+    <section class="section">
+      <h2>海水与海浪</h2>
+      <p>实现深度与颜色变化、海浪、沙滩打湿效果与焦散，营造真实的海岸环境。</p>
+    </section>
+
+    <section class="section">
+      <h2>洗练武器 PBR 材质</h2>
+      <p>开发综合型 Shader 配合武器洗练功能，在 PBR Shader 基础上加入材质区域蒙版、宝石、流光与呼吸灯，支持荧光海水、泥沼等效果；按洗练等级分为低阶（无特殊效果）、中阶（微弱流光）、高阶（高光与流光进一步加强）。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/weapon_1.webp" alt="洗练武器材质"></figure>
+        <figure class="figure"><img src="../assets/img/tech/weapon_2.webp" alt="洗练武器材质"></figure>
+        <figure class="figure"><img src="../assets/img/tech/weapon_3.webp" alt="洗练武器材质"></figure>
+        <figure class="figure"><img src="../assets/img/tech/weapon_4.webp" alt="洗练武器材质"></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>风格化卡通渲染（NPR）</h2>
+      <p>曾担任《不休的乌拉拉》项目组唯一技术美术，从零编写了所有角色与场景 Shader。</p>
+      <div class="figure-grid">
+        <figure class="figure figure-crop"><img src="../assets/img/tech/npr_1.webp" alt="NPR 卡通渲染"></figure>
+        <figure class="figure figure-crop"><img src="../assets/img/tech/npr_2.webp" alt="NPR 卡通渲染"></figure>
+        <figure class="figure figure-crop"><img src="../assets/img/tech/npr_3.webp" alt="NPR 卡通渲染"></figure>
+        <figure class="figure figure-crop"><img src="../assets/img/tech/npr_4.webp" alt="NPR 卡通渲染"></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>天空与光效</h2>
+      <p>天空裂隙使用一张 FlowMap 结合 Shader 实现天空球云层流动；流光翅膀包含黄金蝴蝶、七彩蝴蝶等带流光与闪点的高级翅膀；另实现玩家靠近时的光线墙，以及天空扭曲的黑洞效果。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/wings_1.webp" alt="流光翅膀"><figcaption>黄金蝴蝶</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/wings_2.webp" alt="流光翅膀"><figcaption>七彩蝴蝶</figcaption></figure>
+      </div>
+      <figure class="figure"><img src="../assets/img/tech/wallhole_1.webp" alt="光线墙与黑洞"><figcaption>光线墙与黑洞（天空扭曲）</figcaption></figure>
+    </section>
+
+    <section class="section">
+      <h2>角色与特效</h2>
+      <p>多 Pass 毛绒效果、捏脸范围、流火特效，以及采用模型 + 深度剔除的视差地裂效果。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/fur_1.webp" alt="多 Pass 毛绒效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/fur_2.webp" alt="多 Pass 毛绒效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/face_1.webp" alt="捏脸范围"></figure>
+        <figure class="figure"><img src="../assets/img/tech/crack_1.webp" alt="视差地裂"></figure>
+      </div>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/face_2.webp" alt="捏脸范围"></figure>
+        <figure class="figure"><img src="../assets/img/tech/face_3.webp" alt="捏脸范围"></figure>
+        <figure class="figure"><img src="../assets/img/tech/crack_2.webp" alt="视差地裂"></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>天空球系列</h2>
+      <p>云雾星空、极光、星轨流星、漩涡等天空球效果，以及月亮侵蚀完整变化与火属性 / 水属性裂隙天空。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/skysphere_1.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_2.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_3.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_4.webp" alt="天空球效果"></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>植被与风</h2>
+      <p>风吹草动：整体风使用噪声图流动对草模型进行顶点偏移，局部风使用特殊 FlowMap。风吹树动：模仿 Horizon Zero Dawn 在 GDC 分享的方法输出顶点色辅助树枝各层级叠加；摆动参考 GPU GEMS 3 的噪声公式，区分迎风、背风与垂直三种方向。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/tree_1.webp" alt="风吹树动"></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_2.webp" alt="风吹树动"></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_3.webp" alt="风吹树动"></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_4.webp" alt="风吹树动"></figure>
+      </div>
+      <figure class="figure"><img src="../assets/img/tech/tree_5.webp" alt="风吹树动"></figure>
+    </section>
+
+    <section class="section">
+      <h2>水面与地形</h2>
+      <p>RayMarching 云海，并使用 dithers 优化防止分层条纹、减少计算；动态水波通过程序生成贴图逐帧迭代；水面漩涡采用顶点偏移并开启曲面细分；此外还有地形消除重复感与海底扭曲焦散后处理。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/cloud_1.webp" alt="RayMarching 云海"></figure>
+        <figure class="figure"><img src="../assets/img/tech/cloud_2.webp" alt="RayMarching 云海"></figure>
+        <figure class="figure"><img src="../assets/img/tech/vortex_1.webp" alt="水面漩涡"></figure>
+        <figure class="figure"><img src="../assets/img/tech/vortex_2.webp" alt="水面漩涡"></figure>
+        <figure class="figure"><img src="../assets/img/tech/terrain_1.webp" alt="地形消除重复感"></figure>
+        <figure class="figure"><img src="../assets/img/tech/terrain_2.webp" alt="地形消除重复感"></figure>
+        <figure class="figure"><img src="../assets/img/tech/caustics_1.webp" alt="海底扭曲焦散"></figure>
+        <figure class="figure"><img src="../assets/img/tech/caustics_2.webp" alt="海底扭曲焦散"></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>海底生态</h2>
+      <p>为 BigWorld 引擎开发植物分布图撒点功能（类似 PCG 工具），根据地形高度图与植被分布图撒点并随机化植物簇分布；结合 World Creator 编辑地形，实现海底植被撒点、鱼群 flocking 与投射焦散光效。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/seabed_1.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_2.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_3.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_4.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_5.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_6.webp" alt="海底生态"></figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>场景氛围</h2>
+      <p>程序控制动态天气雾效；使用 Mask 贴图 + Shader 实现春夏秋冬四季变化。</p>
+      <figure class="figure"><img src="../assets/img/tech/fog_1.webp" alt="场景氛围雾效"></figure>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/seasons_1.webp" alt="四季变化"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seasons_2.webp" alt="四季变化"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seasons_3.webp" alt="四季变化"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seasons_4.webp" alt="四季变化"></figure>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">林尚靖 | 技术美术</div>
+  </footer>
+  <script src="../works/work.js"></script>
+</body>
+</html>

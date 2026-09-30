@@ -393,6 +393,18 @@
       color: var(--blue);
     }
 
+    .project-more {
+      display: inline-block;
+      margin-top: 16px;
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .project:hover .project-more {
+      color: var(--navy);
+    }
+
     .project-label {
       display: inline-block;
       margin-bottom: 9px;
@@ -746,6 +758,50 @@
         <p class="summary">
           热爱游戏行业，拥有 <strong>8 年以上技术美术经验</strong>，先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目。擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>，也热衷于开发美术工具、制定美术规范，帮助美术同学提升效率。资深主机与掌机玩家（3DS、Switch、PS5），长期阅读并翻译英文技术文章，喜欢学习与分享知识。
         </p>
+      </section>
+
+      <section id="tech" class="section">
+        <h2 class="section-heading">技术工作精选</h2>
+        <div class="project-list">
+          <a class="project" href="tech/effects.html">
+            <span class="project-label">BigWorld / Messiah / Unity</span>
+            <header class="project-header">
+              <h3>材质效果开发</h3>
+              <span class="period">2018 – 2026</span>
+            </header>
+            <ul class="bullets">
+              <li>海水与海浪、洗练武器 PBR 材质、风格化卡通渲染 NPR、流光翅膀、光线墙与黑洞、多 Pass 毛绒、流火、视差地裂、天空球系列、风吹草动、RayMarching 云海、动态水波、海底生态、雾效与四季变化等 20+ 项材质与特效。</li>
+              <li>曾担任《不休的乌拉拉》项目组唯一技术美术，从零编写所有角色与场景 Shader。</li>
+            </ul>
+            <span class="project-more">查看详情 →</span>
+          </a>
+
+          <a class="project" href="tech/conversion.html">
+            <span class="project-label">管线 / 工具</span>
+            <header class="project-header">
+              <h3>BigWorld → Messiah 跨引擎转换方案</h3>
+              <span class="period">2020 – 2026</span>
+            </header>
+            <ul class="bullets">
+              <li>场景转换：地形 Shader 移植、模型合并与材质去重、贴图合并与 UV 整理、IndexMap 与 SplatMap 混合方案。</li>
+              <li>粒子特效一键转换，可替代 80%–90% 人工环节，简单特效可达 100% 转换。</li>
+            </ul>
+            <span class="project-more">查看详情 →</span>
+          </a>
+
+          <a class="project" href="tech/tools.html">
+            <span class="project-label">工具开发</span>
+            <header class="project-header">
+              <h3>美术工具开发</h3>
+              <span class="period">2020 – 2026</span>
+            </header>
+            <ul class="bullets">
+              <li>Messiah 贴图 AI 重绘优化工具，支持贴图 AI 重绘与一键摆放套装。</li>
+              <li>Shader 分析管理工具：头文件引用分析、寄存器冲突分析与批量检测、Shader 批量编译。</li>
+            </ul>
+            <span class="project-more">查看详情 →</span>
+          </a>
+        </div>
       </section>
 
       <section class="section">

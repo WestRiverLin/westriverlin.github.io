@@ -7,6 +7,8 @@ node_modules/
 # Personal source files kept out of the public site
 *.doc
 *.docx
+*.ppt
+*.pptx
 
 ### macOS ###
 *.DS_Store
