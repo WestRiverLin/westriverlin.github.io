@@ -21,6 +21,14 @@
     <section class="section">
       <h2>海水与海浪</h2>
       <p>实现深度与颜色变化、海浪、沙滩打湿效果与焦散，营造真实的海岸环境。</p>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/water_1.webp" alt="海水与海浪"><figcaption>海浪与沙滩打湿</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/water_2.webp" alt="海水与海浪"><figcaption>焦散效果</figcaption></figure>
+      </div>
+      <figure class="figure">
+        <video src="../assets/img/tech/water_video.mp4" controls autoplay loop muted playsinline></video>
+        <figcaption>海水与海浪效果演示</figcaption>
+      </figure>
     </section>
 
     <section class="section">
@@ -31,6 +39,11 @@
         <figure class="figure"><img src="../assets/img/tech/weapon_2.webp" alt="洗练武器材质"></figure>
         <figure class="figure"><img src="../assets/img/tech/weapon_3.webp" alt="洗练武器材质"></figure>
         <figure class="figure"><img src="../assets/img/tech/weapon_4.webp" alt="洗练武器材质"></figure>
+      </div>
+      <div class="figure-grid figure-grid-three">
+        <figure class="figure"><img src="../assets/img/tech/weapon_5.webp" alt="洗练武器材质"></figure>
+        <figure class="figure"><img src="../assets/img/tech/weapon_6.webp" alt="洗练武器材质"></figure>
+        <figure class="figure"><img src="../assets/img/tech/weapon_7.webp" alt="洗练武器材质"></figure>
       </div>
     </section>
 
@@ -48,26 +61,45 @@
     <section class="section">
       <h2>天空与光效</h2>
       <p>天空裂隙使用一张 FlowMap 结合 Shader 实现天空球云层流动；流光翅膀包含黄金蝴蝶、七彩蝴蝶等带流光与闪点的高级翅膀；另实现玩家靠近时的光线墙，以及天空扭曲的黑洞效果。</p>
+      <figure class="figure"><img src="../assets/img/tech/skyflow_1.webp" alt="天空裂隙流动图"><figcaption>天空裂隙（FlowMap 云层流动）</figcaption></figure>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/wings_1.webp" alt="流光翅膀"><figcaption>黄金蝴蝶</figcaption></figure>
-        <figure class="figure"><img src="../assets/img/tech/wings_2.webp" alt="流光翅膀"><figcaption>七彩蝴蝶</figcaption></figure>
+        <figure class="figure figure-landscape"><img src="../assets/img/tech/wings_1.webp" alt="流光翅膀"><figcaption>黄金蝴蝶</figcaption></figure>
+        <figure class="figure figure-landscape"><img src="../assets/img/tech/wings_2.webp" alt="流光翅膀"><figcaption>七彩蝴蝶</figcaption></figure>
       </div>
-      <figure class="figure"><img src="../assets/img/tech/wallhole_1.webp" alt="光线墙与黑洞"><figcaption>光线墙与黑洞（天空扭曲）</figcaption></figure>
+      <figure class="figure"><img src="../assets/img/tech/wallhole_1.webp" alt="光线墙"><figcaption>光线墙（玩家靠近）</figcaption></figure>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/wallhole_2.webp" alt="黑洞扭曲"><figcaption>黑洞扭曲</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/wallhole_3.webp" alt="黑洞吞噬"><figcaption>黑洞吞噬</figcaption></figure>
+      </div>
     </section>
 
     <section class="section">
       <h2>角色与特效</h2>
       <p>多 Pass 毛绒效果、捏脸范围、流火特效，以及采用模型 + 深度剔除的视差地裂效果。</p>
+
+      <h3>多 Pass 毛绒效果</h3>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/fur_1.webp" alt="多 Pass 毛绒效果"></figure>
-        <figure class="figure"><img src="../assets/img/tech/fur_2.webp" alt="多 Pass 毛绒效果"></figure>
-        <figure class="figure"><img src="../assets/img/tech/face_1.webp" alt="捏脸范围"></figure>
-        <figure class="figure"><img src="../assets/img/tech/crack_1.webp" alt="视差地裂"></figure>
+        <figure class="figure figure-square"><img src="../assets/img/tech/fur_1.webp" alt="多 Pass 毛绒效果"><figcaption>多 Pass 毛绒效果</figcaption></figure>
+        <figure class="figure figure-square"><img src="../assets/img/tech/fur_2.webp" alt="材质球效果"><figcaption>材质球效果</figcaption></figure>
       </div>
+
+      <h3>捏脸范围</h3>
+      <figure class="figure"><img src="../assets/img/tech/face_1.webp" alt="捏脸范围"><figcaption>捏脸范围</figcaption></figure>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/face_2.webp" alt="捏脸范围"></figure>
-        <figure class="figure"><img src="../assets/img/tech/face_3.webp" alt="捏脸范围"></figure>
-        <figure class="figure"><img src="../assets/img/tech/crack_2.webp" alt="视差地裂"></figure>
+        <figure class="figure figure-square"><img src="../assets/img/tech/face_2.webp" alt="编号贴图"><figcaption>编号贴图</figcaption></figure>
+        <figure class="figure figure-square"><img src="../assets/img/tech/face_3.webp" alt="区域贴图"><figcaption>区域贴图</figcaption></figure>
+      </div>
+
+      <h3>流火特效</h3>
+      <div class="figure-grid">
+        <figure class="figure figure-square"><img src="../assets/img/tech/fire_1.webp" alt="烈焰"><figcaption>烈焰</figcaption></figure>
+        <figure class="figure figure-square"><img src="../assets/img/tech/fire_2.webp" alt="幽冥"><figcaption>幽冥</figcaption></figure>
+      </div>
+
+      <h3>视差地裂</h3>
+      <div class="figure-grid">
+        <figure class="figure"><img src="../assets/img/tech/crack_1.webp" alt="地裂 · 模型 + 深度剔除"><figcaption>地裂 · 模型 + 深度剔除</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/crack_2.webp" alt="地裂 · 视差"><figcaption>地裂 · 视差</figcaption></figure>
       </div>
     </section>
 
@@ -79,6 +111,10 @@
         <figure class="figure"><img src="../assets/img/tech/skysphere_2.webp" alt="天空球效果"></figure>
         <figure class="figure"><img src="../assets/img/tech/skysphere_3.webp" alt="天空球效果"></figure>
         <figure class="figure"><img src="../assets/img/tech/skysphere_4.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_5.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_6.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_7.webp" alt="天空球效果"></figure>
+        <figure class="figure"><img src="../assets/img/tech/skysphere_8.webp" alt="天空球效果"></figure>
       </div>
     </section>
 
@@ -86,31 +122,35 @@
       <h2>植被与风</h2>
       <p>风吹草动：整体风使用噪声图流动对草模型进行顶点偏移，局部风使用特殊 FlowMap。风吹树动：模仿 Horizon Zero Dawn 在 GDC 分享的方法输出顶点色辅助树枝各层级叠加；摆动参考 GPU GEMS 3 的噪声公式，区分迎风、背风与垂直三种方向。</p>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/tree_1.webp" alt="风吹树动"></figure>
-        <figure class="figure"><img src="../assets/img/tech/tree_2.webp" alt="风吹树动"></figure>
-        <figure class="figure"><img src="../assets/img/tech/tree_3.webp" alt="风吹树动"></figure>
-        <figure class="figure"><img src="../assets/img/tech/tree_4.webp" alt="风吹树动"></figure>
+        <figure class="figure"><img src="../assets/img/tech/grass_1.webp" alt="风吹草动"><figcaption>整体风吹草动</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/grass_2.webp" alt="风吹草动"><figcaption>局部风效果</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_4.webp" alt="风吹树动"><figcaption>迎风摆动</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_5.webp" alt="风吹树动"><figcaption>背风摆动</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_6.webp" alt="风吹树动"><figcaption>风向调整</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/tree_7.webp" alt="风吹树动"><figcaption>风力调整</figcaption></figure>
       </div>
-      <figure class="figure"><img src="../assets/img/tech/tree_5.webp" alt="风吹树动"></figure>
+      <figure class="figure"><img src="../assets/img/tech/tree_8.webp" alt="风吹树动"><figcaption>风吹树动</figcaption></figure>
     </section>
 
     <section class="section">
-      <h2>水面与地形</h2>
+      <h2>云海 · 水面 · 海底 · 地形</h2>
       <p>RayMarching 云海，并使用 dithers 优化防止分层条纹、减少计算；动态水波通过程序生成贴图逐帧迭代；水面漩涡采用顶点偏移并开启曲面细分；此外还有地形消除重复感与海底扭曲焦散后处理。</p>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/cloud_1.webp" alt="RayMarching 云海"></figure>
-        <figure class="figure"><img src="../assets/img/tech/cloud_2.webp" alt="RayMarching 云海"></figure>
-        <figure class="figure"><img src="../assets/img/tech/vortex_1.webp" alt="水面漩涡"></figure>
-        <figure class="figure"><img src="../assets/img/tech/vortex_2.webp" alt="水面漩涡"></figure>
-        <figure class="figure"><img src="../assets/img/tech/terrain_1.webp" alt="地形消除重复感"></figure>
-        <figure class="figure"><img src="../assets/img/tech/terrain_2.webp" alt="地形消除重复感"></figure>
-        <figure class="figure"><img src="../assets/img/tech/caustics_1.webp" alt="海底扭曲焦散"></figure>
-        <figure class="figure"><img src="../assets/img/tech/caustics_2.webp" alt="海底扭曲焦散"></figure>
+        <figure class="figure"><img src="../assets/img/tech/cloud_1.webp" alt="RayMarching 云海"><figcaption>RayMarching 云海</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/cloud_2.webp" alt="RayMarching 云海"><figcaption>RayMarching 云海</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/wave_1.webp" alt="动态水波"><figcaption>动态水波</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/wave_2.webp" alt="动态水波"><figcaption>动态水波</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/vortex_1.webp" alt="漩涡 · 躁动"><figcaption>漩涡 · 躁动</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/vortex_2.webp" alt="漩涡 · 宁静"><figcaption>漩涡 · 宁静</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/terrain_1.webp" alt="地形消除重复感（处理前）"><figcaption>地形消除重复感（处理前）</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/terrain_2.webp" alt="地形消除重复感（处理后）"><figcaption>地形消除重复感（处理后）</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/caustics_1.webp" alt="海底焦散"><figcaption>海底焦散</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/caustics_2.webp" alt="海底扭曲"><figcaption>海底扭曲</figcaption></figure>
       </div>
     </section>
 
     <section class="section">
-      <h2>海底生态</h2>
+      <h2>海底生态与撒点</h2>
       <p>为 BigWorld 引擎开发植物分布图撒点功能（类似 PCG 工具），根据地形高度图与植被分布图撒点并随机化植物簇分布；结合 World Creator 编辑地形，实现海底植被撒点、鱼群 flocking 与投射焦散光效。</p>
       <div class="figure-grid">
         <figure class="figure"><img src="../assets/img/tech/seabed_1.webp" alt="海底生态"></figure>
@@ -119,6 +159,8 @@
         <figure class="figure"><img src="../assets/img/tech/seabed_4.webp" alt="海底生态"></figure>
         <figure class="figure"><img src="../assets/img/tech/seabed_5.webp" alt="海底生态"></figure>
         <figure class="figure"><img src="../assets/img/tech/seabed_6.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_7.webp" alt="海底生态"></figure>
+        <figure class="figure"><img src="../assets/img/tech/seabed_8.webp" alt="海底生态"></figure>
       </div>
     </section>
 

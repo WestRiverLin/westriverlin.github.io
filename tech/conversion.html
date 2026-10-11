@@ -26,17 +26,20 @@
       <p><strong>贴图合并与 UV 整理：</strong>端游贴图多为 512x512 或更小的四方图、256x512 或更小的长图，工具会合并贴图，并整理引用这些贴图的材质 ID 对应的 UV。</p>
       <p><strong>地形混合：</strong>Messiah 地形采用 IndexMap（无混合图）方案，在 Shader 内做特殊处理自混合；为保持一致，移植 BigWorld 地形 Shader，使用两张贴图八个通道进行地形混合，地形种类沿用 Messiah 的 Index 方式，并对悬崖峭壁采样做特殊处理，相关信息记录在 Chunk 信息图中。</p>
       <p><strong>结果：</strong>最终结合 Messiah 原有 IndexMap 与 BigWorld 的 SplatMap 方案，实现两端效果一致。</p>
+      <figure class="figure"><img src="../assets/img/tech/sceneconvert_1.webp" alt="场景转换流程"><figcaption>场景转换流程</figcaption></figure>
+      <figure class="figure"><img src="../assets/img/tech/sceneconvert_3.webp" alt="模型合并与材质去重"><figcaption>模型合并与材质去重</figcaption></figure>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_1.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_2.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_3.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_4.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_5.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_6.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_7.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_8.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_9.webp" alt="场景转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/sceneconvert_10.webp" alt="场景转换"></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_4.webp" alt="贴图合并与 UV 整理"><figcaption>贴图合并与 UV 整理</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_5.webp" alt="贴图合并与 UV 整理"><figcaption>贴图合并与 UV 整理</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_6.webp" alt="地形混合方案"><figcaption>地形混合方案</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_7.webp" alt="地形混合方案"><figcaption>地形混合方案</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_8.webp" alt="地形编号尺寸与特殊开关贴图"><figcaption>地形编号尺寸与特殊开关贴图</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_9.webp" alt="地形混合权重图"><figcaption>地形混合权重图</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/sceneconvert_10.webp" alt="地形类型贴图"><figcaption>地形类型贴图</figcaption></figure>
+      </div>
+      <div class="figure-grid">
+        <figure class="figure figure-landscape"><img src="../assets/img/tech/sceneconvert_11.webp" alt="最终效果 · BigWorld"><figcaption>最终效果 · BigWorld</figcaption></figure>
+        <figure class="figure figure-landscape"><img src="../assets/img/tech/sceneconvert_12.webp" alt="最终效果 · Messiah"><figcaption>最终效果 · Messiah</figcaption></figure>
       </div>
     </section>
 
@@ -45,11 +48,21 @@
       <p><strong>背景：</strong>提供 BigWorld → Messiah 的粒子特效转换工具，用户只需配置几个路径即可一键转换，还原度较高，仅需少量后续调整即可使用。</p>
       <p><strong>技术原理：</strong>两边引擎都使用 XML 记录粒子特效信息，且部分组件参数类似；工具解析 BigWorld 的 XML 后先与 Messiah 通信，把贴图资源信息作为参数发送过去，调用接口导入贴图并新建粒子，再通过 ModelLib 导入模型资源，最后整合 BigWorld 的 XML 信息与导入的贴图、模型，构建 Messiah 粒子 XML。</p>
       <p><strong>效果：</strong>整体转换可替代约 80%–90% 的人工制作环节，部分简单特效可达到 100% 转换。</p>
-      <figure class="figure"><img src="../assets/img/tech/fxconvert_1.webp" alt="特效转换"></figure>
+      <figure class="figure"><img src="../assets/img/tech/fxconvert_1.webp" alt="特效转换流程"><figcaption>特效转换流程</figcaption></figure>
+      <figure class="figure"><img src="../assets/img/tech/fxconvert_2.webp" alt="特效转换流程"><figcaption>特效转换流程</figcaption></figure>
       <div class="figure-grid">
-        <figure class="figure"><img src="../assets/img/tech/fxconvert_2.webp" alt="特效转换"></figure>
-        <figure class="figure"><img src="../assets/img/tech/fxconvert_3.webp" alt="特效转换"></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_8.webp" alt="BigWorld"><figcaption>BigWorld</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_3.webp" alt="Messiah"><figcaption>Messiah</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_12.webp" alt="BigWorld"><figcaption>BigWorld</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_6.webp" alt="Messiah"><figcaption>Messiah</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_11.webp" alt="BigWorld"><figcaption>BigWorld</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_7.webp" alt="Messiah"><figcaption>Messiah</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_9.webp" alt="BigWorld"><figcaption>BigWorld</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_4.webp" alt="Messiah"><figcaption>Messiah</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_10.webp" alt="BigWorld"><figcaption>BigWorld</figcaption></figure>
+        <figure class="figure"><img src="../assets/img/tech/fxconvert_5.webp" alt="Messiah"><figcaption>Messiah</figcaption></figure>
       </div>
+      <figure class="figure figure-half"><img src="../assets/img/tech/fxconvert_13.webp" alt="粒子特效转换工具界面"><figcaption>粒子特效转换工具界面</figcaption></figure>
     </section>
   </main>
   <footer class="footer">

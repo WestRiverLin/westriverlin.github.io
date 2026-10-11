@@ -125,6 +125,13 @@ a:hover {
   letter-spacing: 0;
 }
 
+.section h3 {
+  margin: 24px 0 12px;
+  color: var(--navy);
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
 .section p {
   margin: 0;
   color: #354453;
@@ -149,8 +156,29 @@ a:hover {
   cursor: zoom-in;
 }
 
+.figure video {
+  width: 100%;
+  max-height: 480px;
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #000000;
+}
+
 .figure-crop img {
   aspect-ratio: 9 / 16;
+  object-fit: cover;
+  object-position: center;
+}
+
+.figure-landscape img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+
+.figure-square img {
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center;
 }
@@ -171,6 +199,20 @@ a:hover {
 
 .figure-grid .figure {
   margin: 0;
+}
+
+.figure-grid-three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.figure-half {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.figure-half figcaption {
+  text-align: center;
 }
 
 .lightbox {
@@ -217,7 +259,8 @@ a:hover {
 }
 
 @media (max-width: 620px) {
-  .figure-grid {
+  .figure-grid,
+  .figure-grid-three {
     grid-template-columns: 1fr;
   }
 }
