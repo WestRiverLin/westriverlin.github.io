@@ -53,6 +53,11 @@
       en: "Watch video",
       ja: "動画あり"
     },
+    "badge.playable": {
+      zh: "可在线游玩",
+      en: "Playable online",
+      ja: "オンラインで遊べる"
+    },
 
     // Home page
     "i.name": {
@@ -111,9 +116,9 @@
     "i.skills.tooldev": { zh: "美术工具开发", en: "Art Tool Development", ja: "アートツール開発" },
     "i.about.title": { zh: "关于我", en: "About Me", ja: "自己紹介" },
     "i.about.summary": {
-      zh: "热爱游戏行业，拥有 <strong>8 年以上技术美术经验</strong>，先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目。擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>，也热衷于开发美术工具、制定美术规范，帮助美术同学提升效率。资深主机与掌机玩家（3DS、Switch、PS5），长期阅读并翻译英文技术文章，喜欢学习与分享知识。",
-      en: "Passionate about the games industry, with <strong>8+ years of technical art experience</strong> across Unity, BigWorld, and Messiah on multiple shipped titles. Skilled in <strong>shader development, stylized rendering, PBR pipelines, and mobile performance optimization</strong>, with a focus on building art tools and standards that make artists more productive. A long-time console and handheld player (3DS, Switch, PS5) who reads and translates English technical articles and loves learning and sharing.",
-      ja: "ゲーム業界を愛し、Unity、BigWorld、Messiahなど複数のリリース済みタイトルで<strong>8年以上のテクニカルアート経験</strong>を持つ。<strong>シェーダー開発、トゥーンレンダリング、PBRパイプライン、モバイル性能最適化</strong>を得意とし、アーティストの生産性を高めるツール開発と制作規約の策定にも注力。3DS、Switch、PS5を愛用するコンソール／携帯機プレイヤーで、英語の技術記事の翻訳にも取り組み、学びと共有を大切にしている。"
+      zh: "热爱游戏行业，拥有 <strong>8 年以上技术美术经验</strong>，先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目。擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>，也热衷于开发美术工具、制定美术规范，帮助美术同学提升效率。资深主机与掌机玩家，拥有 3DS、Switch、PS5 等设备，Steam 游戏数 1000+，长期阅读并翻译英文技术文章，喜欢学习与分享知识。",
+      en: "Passionate about the games industry, with <strong>8+ years of technical art experience</strong> across Unity, BigWorld, and Messiah on multiple shipped titles. Skilled in <strong>shader development, stylized rendering, PBR pipelines, and mobile performance optimization</strong>, with a focus on building art tools and standards that make artists more productive. A long-time console and handheld player with a 3DS, Switch, PS5, and a 1000+ Steam library, who reads and translates English technical articles and loves learning and sharing.",
+      ja: "ゲーム業界を愛し、Unity、BigWorld、Messiahなど複数のリリース済みタイトルで<strong>8年以上のテクニカルアート経験</strong>を持つ。<strong>シェーダー開発、トゥーンレンダリング、PBRパイプライン、モバイル性能最適化</strong>を得意とし、アーティストの生産性を高めるツール開発と制作規約の策定にも注力。3DS、Switch、PS5に加えてSteamゲーム1000本以上を所有するコンソール／携帯機プレイヤーで、英語の技術記事の翻訳にも取り組み、学びと共有を大切にしている。"
     },
     "i.exp.title": { zh: "工作经历", en: "Experience", ja: "職歴" },
     "i.exp1.title": {
