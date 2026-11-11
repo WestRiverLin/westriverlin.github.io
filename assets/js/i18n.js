@@ -38,11 +38,6 @@
       en: "← Back to Selected Work",
       ja: "← 仕事のハイライトに戻る"
     },
-    "header.csdn": {
-      zh: "CSDN博客",
-      en: "CSDN Blog",
-      ja: "CSDNブログ"
-    },
     "detail": {
       zh: "查看详情 →",
       en: "View details →",
@@ -76,7 +71,6 @@
       ja: "ネットイースゲームズ · 天下スタジオ"
     },
     "i.contact.email": { zh: "邮箱", en: "Email", ja: "メール" },
-    "i.contact.blog": { zh: "博客", en: "Blog", ja: "ブログ" },
     "i.edu.title": { zh: "教育背景", en: "Education", ja: "学歴" },
     "i.edu1.title": {
       zh: "华中师范大学 · 数字媒体技术<br>本科",
@@ -84,9 +78,9 @@
       ja: "華中師範大学 · デジタルメディア技術<br>学士"
     },
     "i.edu1.desc": {
-      zh: "学习委员 · GPA 3.6 / 4.0 · 排名 1 / 33",
-      en: "Class monitor · GPA 3.6 / 4.0 · Rank 1 / 33",
-      ja: "学級委員 · GPA 3.6 / 4.0 · 順位 1 / 33"
+      zh: "GPA 3.6 / 4.0 · 排名 1 / 33",
+      en: "GPA 3.6 / 4.0 · Rank 1 / 33",
+      ja: "GPA 3.6 / 4.0 · 順位 1 / 33"
     },
     "i.edu2.title": {
       zh: "新加坡南洋理工大学<br>创新创业短期交流",
