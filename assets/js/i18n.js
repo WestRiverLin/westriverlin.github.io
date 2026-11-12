@@ -13,6 +13,11 @@
       en: "Technical Artist",
       ja: "テクニカルアーティスト"
     },
+    "title": {
+      zh: "林尚靖 | 技术美术 · 独立游戏开发者",
+      en: "Shangjing Lin | Technical Artist · Indie Game Developer",
+      ja: "林尚靖 | テクニカルアーティスト · インディーゲーム開発者"
+    },
     "footer.title": {
       zh: "林尚靖 | 技术美术",
       en: "Shangjing Lin | Technical Artist",
@@ -66,9 +71,9 @@
       ja: "林尚靖"
     },
     "i.role": {
-      zh: "技术美术 / Technical Artist<br>渲染 · 工具 · 移动端性能优化",
-      en: "Technical Artist<br>Rendering · Tools · Mobile Performance Optimization",
-      ja: "テクニカルアーティスト<br>レンダリング · ツール · モバイル性能最適化"
+      zh: "技术美术 · 独立游戏开发者<br>渲染 · 工具 · 移动端性能优化",
+      en: "Technical Artist · Indie Game Developer<br>Rendering · Tools · Mobile Performance Optimization",
+      ja: "テクニカルアーティスト · インディーゲーム開発者<br>レンダリング · ツール · モバイル性能最適化"
     },
     "i.company": {
       zh: "网易游戏 · 天下事业部",
@@ -116,9 +121,9 @@
     "i.skills.tooldev": { zh: "美术工具开发", en: "Art Tool Development", ja: "アートツール開発" },
     "i.about.title": { zh: "关于我", en: "About Me", ja: "自己紹介" },
     "i.about.summary": {
-      zh: "热爱游戏行业，拥有 <strong>8 年以上技术美术经验</strong>，先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目。擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>，也热衷于开发美术工具、制定美术规范，帮助美术同学提升效率。资深主机与掌机玩家，拥有 3DS、Switch、PS5 等设备，Steam 游戏数 1000+，长期阅读并翻译英文技术文章，喜欢学习与分享知识。",
-      en: "Passionate about the games industry, with <strong>8+ years of technical art experience</strong> across Unity, BigWorld, and Messiah on multiple shipped titles. Skilled in <strong>shader development, stylized rendering, PBR pipelines, and mobile performance optimization</strong>, with a focus on building art tools and standards that make artists more productive. A long-time console and handheld player with a 3DS, Switch, PS5, and a 1000+ Steam library, who reads and translates English technical articles and loves learning and sharing.",
-      ja: "ゲーム業界を愛し、Unity、BigWorld、Messiahなど複数のリリース済みタイトルで<strong>8年以上のテクニカルアート経験</strong>を持つ。<strong>シェーダー開発、トゥーンレンダリング、PBRパイプライン、モバイル性能最適化</strong>を得意とし、アーティストの生産性を高めるツール開発と制作規約の策定にも注力。3DS、Switch、PS5に加えてSteamゲーム1000本以上を所有するコンソール／携帯機プレイヤーで、英語の技術記事の翻訳にも取り組み、学びと共有を大切にしている。"
+      zh: "热爱游戏行业，兼具技术美术与独立游戏开发能力，拥有 <strong>8 年以上技术美术经验</strong>。作为 <strong>独立游戏开发者</strong>，一人使用 TapTap Maker 从 0 到 1 完成并上线《原胞：进化》，并独立开发 6 款以上可玩 Demo。先后使用 Unity、BigWorld、Messiah 等引擎参与多款已上线项目，擅长 <strong>Shader 编写、卡通渲染、PBR 流程与移动端性能优化</strong>；<strong>了解大模型后训练（SFT / RLHF / RL）</strong>，并自研 AI 贴图重绘工具落地到美术流程。作为《不休的乌拉拉》项目组<strong>唯一技术美术</strong>，<strong>从 0 到 1 独立负责全部技术美术</strong>，并带教 2 名新人 / 实习生，<strong>有一定的管理经验</strong>。资深主机与掌机玩家，拥有 3DS、Switch、PS5 等设备，Steam 游戏数 1000+。",
+      en: "Passionate about games, with <strong>8+ years of technical art experience</strong> and independent game development experience. As an <strong>indie game developer</strong>, I built and shipped <strong>Cell: Evolution</strong> solo from 0 to 1 using TapTap Maker, and developed 6+ playable demos on my own. Skilled in <strong>shader development, stylized rendering, PBR pipelines, and mobile performance optimization</strong> across Unity, BigWorld, and Messiah; <strong>familiar with LLM post-training (SFT / RLHF / RL)</strong> and built an in-house AI texture-redraw tool used in production. As the <strong>only technical artist</strong> on Ulala: Idle Adventure, I <strong>independently owned the full technical-art scope from 0 to 1</strong> and mentored 2 juniors / interns, <strong>with some management experience</strong>. A long-time console and handheld player with a 3DS, Switch, PS5, and a 1000+ Steam library.",
+      ja: "ゲームを愛し、<strong>8年以上のテクニカルアート経験</strong>とインディーゲーム開発経験を持つ。<strong>インディーゲーム開発者</strong>として、TapTap Makerで『原胞：進化』を一人で0から1まで開発・リリースし、6本以上のプレイ可能なデモを独自に制作。Unity、BigWorld、Messiahなどで複数のリリース済みタイトルに携わり、<strong>シェーダー開発、トゥーンレンダリング、PBRパイプライン、モバイル性能最適化</strong>を得意とする。<strong>大規模モデルのポストトレーニング（SFT / RLHF / RL）を理解</strong>し、実運用に活用した自社製AIテクスチャ再描画ツールを開発。『ウララ』ではチーム<strong>唯一のテクニカルアーティスト</strong>として<strong>全工程を0から1で担当</strong>し、新人／インターン2名を指導<strong>、一定のマネジメント経験あり</strong>。3DS、Switch、PS5とSteamゲーム1000本以上を所有するコンソール／携帯機プレイヤー。"
     },
     "i.exp.title": { zh: "工作经历", en: "Experience", ja: "職歴" },
     "i.exp1.title": {
@@ -141,15 +146,20 @@
       en: "Contributed to the cross-engine porting project \"Project Kaitian\", designing two cross-engine art-asset porting solutions that were filed as patents.",
       ja: "クロスエンジン移植「開天計画」に参加し、2つのアートアセット移植ソリューションを設計、特許を申請・取得。"
     },
+    "i.exp1.b4": {
+      zh: "带教 2 名新人 / 实习生，负责其技术美术方向的工作指导与任务拆解。",
+      en: "Mentored 2 juniors / interns, handling their technical-art onboarding and task breakdown.",
+      ja: "新人／インターン2名を指導し、テクニカルアート分野のオンボーディングとタスク分解を担当。"
+    },
     "i.exp2.title": {
       zh: "厦门真有趣信息科技有限公司 — 技术美术",
       en: "Xiamen Zhenyouqu Information Technology — Technical Artist",
       ja: "厦門真有趣信息科技 — テクニカルアーティスト"
     },
     "i.exp2.b1": {
-      zh: "参与《不休的乌拉拉》：从 DEMO 到内测直至海内外上线全流程参与，作为项目组唯一技术美术，从零负责 Shader 编写、美术规范、工具开发与性能优化。",
-      en: "Worked on Ulala: Idle Adventure from demo through beta to global launch. As the team's only technical artist, built all shaders, art standards, tooling, and performance optimization from scratch.",
-      ja: "『ウララ：アイドルアドベンチャー』にデモからベータ、国内外リリースまで参加。チーム唯一のテクニカルアーティストとして、シェーダー、制作規約、ツール開発、性能最適化をゼロから担当。"
+      zh: "参与《不休的乌拉拉》：从 0 到 1 负责全部技术美术（Shader 编写、美术规范制定、美术工具开发、性能优化），并推动美术规范在团队落地，项目从 DEMO 到海内外上线全流程跟进。",
+      en: "On Ulala: Idle Adventure, as the team's only technical artist, owned the full technical-art scope from 0 to 1—shaders, art standards, tooling, and performance optimization—rolled out art standards across the team, and followed the project from demo to global launch.",
+      ja: "『ウララ：アイドルアドベンチャー』でチーム唯一のテクニカルアーティストとして、シェーダー、制作規約、ツール開発、性能最適化のすべてを0から1で担当。制作規約をチームに浸透させ、デモから国内外リリースまで一貫して担当。"
     },
     "i.exp3.title": {
       zh: "武汉渲奇数字科技有限公司 — 客户端程序（实习）",
